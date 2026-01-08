@@ -1,0 +1,63 @@
+{
+ "charts": [],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"School Management Dashboard\", \"level\": 3, \"col\": 12}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Employee\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Attendance\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Salary\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Shift\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"EmpSubject\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"CollegeSubject\", \"col\": 4}}]",
+ "creation": "2026-01-08 16:12:40.604573",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "School Management",
+ "links": [],
+ "modified": "2026-01-08 16:29:33.756472",
+ "modified_by": "Administrator",
+ "module": "School-app",
+ "name": "School Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Employee",
+   "link_to": "School-Employee",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Attendance",
+   "link_to": "SchoolAttendace",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Salary",
+   "link_to": "School-Salary",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Shift",
+   "link_to": "School-Shift",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "EmpSubject",
+   "link_to": "Employee-Subject",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "CollegeSubject",
+   "link_to": "Subject",
+   "type": "DocType"
+  }
+ ],
+ "title": "School Management"
+}
